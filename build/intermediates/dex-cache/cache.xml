@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\e74bbd58f015476d6272f0a9b64a12fdd1eadd72\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f3b93ab2dc72dcfa61bd69b6db97317f4c76433\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\9e00b6b5f0f2884eec59ffe48ae460cbf79392b2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9bc276beacda8b19d10ce4e129ca8a291cdabb85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\9903a96db9c8de65d042dce689a5242bba6de6a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f07235f489130ea029bab5d6a4286d3f1d7795c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\9d3e9e284a72440fd2cf60fe7c3cead1e2216c22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6fe651db749c5c969f875da7e36c0ee91dca5dbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_c8b456ca6632083158431b42670c98d906563755\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\759cc03a0ce06a12fcf389352acf6e5da56a572c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bba179b5c37d7e1a9d25179ba5a200b5cbcf0479\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\85391b97caef9e85bcecbd5a8d31f4a529b9c69a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60676cb24d3ef63c705ebb0ba1b49c1d0ee7cc98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\5b40dc85fe489ac15cd7905657a5bbfd06f59c68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38728f98716185231b5d8639dd039e5761c2ffcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\LectorDeHuellas\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="999a9b9e4407792e772c47f24a587d87f7425c32">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_abbaef9bf658c59778d0b4dad09c3da8c634c012\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\3a1af88486d91e43fcbaf85b7463103e250d065b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73238ed820aa6e00b439db34a28543a6b38471cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\LectorDeHuellas\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_16efc70b0a88083c8bc91bc71a81ad95887fa991\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maneirja\.android\build-cache\f6e5067e1055505808b85934f7889b08324508e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Projects\LectorDeHuellas\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a22743e002a5c6a765682973b5805793a810804\classes.dex" />
+    </item>
+
+</items>
