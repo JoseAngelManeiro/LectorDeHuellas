@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintListen
     private ImageView imageViewIcon;
 
 
-    @TargetApi(Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,34 +51,47 @@ public class MainActivity extends AppCompatActivity implements FingerprintListen
         textViewLabel = (TextView)findViewById(R.id.label_TextView);
         imageViewIcon = (ImageView)findViewById(R.id.icon_ImageView);
 
+        if(checkFingerprint()){
+
+            generateKey();
+
+            if (cipherInit()) {
+                cryptoObject = new FingerprintManagerCompat.CryptoObject(cipher);
+                FingerprintHandler helper = new FingerprintHandler(this);
+                helper.startAuth(fingerprintManager, cryptoObject);
+            }
+        }
+
+    }
+
+    private boolean checkFingerprint(){
         keyguardManager = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
         fingerprintManager = FingerprintManagerCompat.from(this);
 
+        if (!fingerprintManager.isHardwareDetected()) {
+            textViewLabel.setText("El dispositivo no tiene sensor de huellas digitales");
+            return false;
+        }
+
         if (!keyguardManager.isKeyguardSecure()) {
             textViewLabel.setText("La seguridad de la pantalla de bloqueo no está habilitada en Ajustes");
-            return;
+            return false;
         }
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.USE_FINGERPRINT) !=
                 PackageManager.PERMISSION_GRANTED) {
             textViewLabel.setText("El permiso de autenticación de huellas digitales no está habilitado");
-            return;
+            return false;
         }
 
         if (!fingerprintManager.hasEnrolledFingerprints()) {
             textViewLabel.setText("Debe registrar al menos una huella digital en Ajustes");
-            return;
+            return false;
         }
 
-        generateKey();
-
-        if (cipherInit()) {
-            cryptoObject = new FingerprintManagerCompat.CryptoObject(cipher);
-            FingerprintHandler helper = new FingerprintHandler(this);
-            helper.startAuth(fingerprintManager, cryptoObject);
-        }
-
+        return true;
     }
+
 
     @TargetApi(Build.VERSION_CODES.M)
     protected void generateKey() {
@@ -112,6 +124,7 @@ public class MainActivity extends AppCompatActivity implements FingerprintListen
     @TargetApi(Build.VERSION_CODES.M)
     public boolean cipherInit() {
         try {
+
             cipher = Cipher.getInstance(KeyProperties.KEY_ALGORITHM_AES + "/"
                     + KeyProperties.BLOCK_MODE_CBC + "/"
                     + KeyProperties.ENCRYPTION_PADDING_PKCS7);
