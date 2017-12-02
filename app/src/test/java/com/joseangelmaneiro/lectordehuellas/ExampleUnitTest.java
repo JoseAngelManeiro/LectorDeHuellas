@@ -1,4 +1,4 @@
-package com.angelmaneiro.lectordehuellas;
+package com.joseangelmaneiro.lectordehuellas;
 
 import org.junit.Test;
 

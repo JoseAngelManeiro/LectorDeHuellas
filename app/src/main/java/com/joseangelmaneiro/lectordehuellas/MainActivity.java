@@ -1,4 +1,4 @@
-package com.angelmaneiro.lectordehuellas;
+package com.joseangelmaneiro.lectordehuellas;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -28,7 +28,9 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
-public class MainActivity extends AppCompatActivity implements FingerprintListener{
+
+public class MainActivity extends AppCompatActivity implements
+        FingerprintHandler.FingerprintListener {
 
     private static final String KEY_NAME = "example_key";
 
@@ -145,7 +147,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintListen
         }
     }
 
-
     @Override
     public void validFingerprint() {
         imageViewIcon.setImageResource(R.drawable.ic_ok);
@@ -157,4 +158,5 @@ public class MainActivity extends AppCompatActivity implements FingerprintListen
         imageViewIcon.setImageResource(R.drawable.ic_error);
         textViewLabel.setText("Huella no válida");
     }
+
 }

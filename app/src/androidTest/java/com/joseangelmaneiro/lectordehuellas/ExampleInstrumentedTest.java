@@ -1,4 +1,4 @@
-package com.angelmaneiro.lectordehuellas;
+package com.joseangelmaneiro.lectordehuellas;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

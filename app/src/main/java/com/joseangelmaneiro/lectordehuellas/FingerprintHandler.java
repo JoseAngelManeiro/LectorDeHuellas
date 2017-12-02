@@ -1,5 +1,4 @@
-package com.angelmaneiro.lectordehuellas;
-
+package com.joseangelmaneiro.lectordehuellas;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -57,4 +56,10 @@ public class FingerprintHandler extends FingerprintManagerCompat.AuthenticationC
             fingerprintListener.validFingerprint();
         }
     }
+
+    public interface FingerprintListener {
+        void validFingerprint();
+        void invalidFingerprint();
+    }
+
 }
